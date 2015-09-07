@@ -12,11 +12,11 @@ I use this repository to upload file during my learning of assembly language.
 ## How to use
 * Use helloworld as an example.
 * Create a file named helloworld.asm. You can use any text-editor you like. (I use sublime-text)
-* In terminal, go to the same directory with .asm file.
-* Use following command to assemble .asm into .o : 
-`nasm -f elf helloworld.asm`
+* In terminal, go to the same directory with helloworld.asm file.
+* Use following command to assemble helloworld.asm into helloworld.o : 
+* `nasm -f elf helloworld.asm`
 * Use following command to make file executable with a link:
-`ld -m elf_i386 -s -o helloworld helloworld.asm`
+* `ld -m elf_i386 -s -o helloworld helloworld.asm`
 * Use following command to execute:
-`./helloworld`
+* `./helloworld`
 * The file should run if everything is correct.
