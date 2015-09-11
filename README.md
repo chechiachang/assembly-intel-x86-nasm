@@ -16,7 +16,7 @@ I use this repository to upload file during my learning of assembly language.
 * Use following command to assemble helloworld.asm into helloworld.o : 
 * `nasm -f elf helloworld.asm`
 * Use following command to make file executable with a link:
-* `ld -m elf_i386 -s -o helloworld helloworld.asm`
+* `ld -m elf_i386 -s -o helloworld helloworld.o`
 * Use following command to execute:
 * `./helloworld`
 * The file should run if everything is correct.
